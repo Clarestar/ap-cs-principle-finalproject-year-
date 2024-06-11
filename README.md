@@ -1,4 +1,4 @@
-# ap-cs-principle-finalproject-year--1
+# ap-cs-principle-finalproject-year-
 # Number-Guessing Game
 
 This project is a simple number-guessing game implemented using Flask. Users can guess a single secret number or try to guess a number from a list of secret numbers.
