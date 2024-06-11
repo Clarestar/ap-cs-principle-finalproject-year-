@@ -14,7 +14,7 @@ This project is a simple number-guessing game implemented using Flask. Users can
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/number-guessing-game.git
+    git clone https://github.com/Clarestar/ap-cs-principle-finalproject-year-.git
     cd number-guessing-game
     ```
 
@@ -36,7 +36,7 @@ This project is a simple number-guessing game implemented using Flask. Users can
     python app.py
     ```
 
-2. Open your web browser and navigate to `http://localhost:2417`.
+2. Open your web browser and navigate to `http://localhost:1724`.
 
 ## Routes
 
@@ -49,7 +49,7 @@ This project is a simple number-guessing game implemented using Flask. Users can
 
 - **Global Variables**:
   - `secret_number`: A single secret number to guess.
-  - `secret_numbers`: A list of 10 secret numbers.
+  - `secret_numbers`: A list of 6 secret numbers.
 
 - **Functions**:
   - `guess_number_list(guess: int, secret_numbers: list[int]) -> str`: Checks if the guessed number is in the list of secret numbers.
