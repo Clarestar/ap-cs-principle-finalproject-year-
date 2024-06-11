@@ -24,7 +24,7 @@ def guess_number_list(guess: int, secret_numbers: list[int]) -> str:
     """
     for number in secret_numbers:
         if number == guess:
-            return f'{guess} is a secret number, you win :) !!!!!!!!'
+            return f'{guess} is a secret number, you win :) !!!!!!'
     return f'{guess} is not a secret number, you lose :('
 
 
