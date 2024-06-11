@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Welcome, to numbers guessing game!!!!!'
+    return 'Welcome, to numbers guessing game!!!!!!!!!'
 
 secret_number = random.randint(1, 80)
 secret_numbers = []
@@ -103,4 +103,4 @@ def guess_secret_numbers():
         return guess_number_list(guess, secret_numbers)
 
 if __name__ == '__main__':
-    app.run(host='localhost', port=2417)
+    app.run(host='localhost', port=1724)
