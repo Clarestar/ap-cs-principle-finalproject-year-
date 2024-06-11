@@ -1,0 +1,19 @@
+Initial Setup:
+
+The secret number and a list of secret numbers are generated correctly.
+Routes:
+
+welcome: Displays a welcome message.
+reset: Generates a new secret number.
+number_guessing_game: Handles both GET and POST requests. GET request shows the guess form, and POST request processes the guess, providing feedback if the guess is too high, too low, or correct.
+guess_secret_numbers: Handles both GET and POST requests. GET request shows the guess form, and POST request checks if the guessed number is in the secret numbers list, providing appropriate feedback.
+
+Testing:
+Verified that the application initializes correctly.
+Confirmed that the secret number and secret numbers are generated and reset as expected.
+Ensured the guess functionality works, providing correct feedback based on the user's input.
+Validated the display of secret numbers for debugging purposes.
+
+Edge Cases:
+Tested with edge values (1 and 80) to ensure they are handled properly.
+Tested with invalid inputs to verify robustness.
